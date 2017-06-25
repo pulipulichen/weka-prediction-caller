@@ -25,7 +25,7 @@ $weka_model = set_full_path($weka_model)
 
 
 $weka_run_title = IniRead ( @ScriptDir & "\config.ini", "weka", "weka_run_title", "Weka" )
-$weka_run_message = IniRead ( @ScriptDir & "\config.ini", "weka", "weka_run_message", "Analyzing. Please wait..." )
+$weka_run_message = IniRead ( @ScriptDir & "\config.ini", "weka", "weka_run_message", "Please wait. Predicting..." )
 SplashTextOn($weka_run_title, $weka_run_message, 300, 40) ; https://www.autoitscript.com/autoit3/docs/functions/SplashTextOn.htm
 
 ; -----------------------------
