@@ -4,7 +4,7 @@
 #include <StringConstants.au3>
 #include <AutoItConstants.au3>
 #include <puli_utils.au3>
-#pragma compile(Icon, 'lib\icon\weka-icon.ico')
+#pragma compile(Icon, 'weka-icon.ico')
 
 ; -----------------------------
 ; 取得資料
