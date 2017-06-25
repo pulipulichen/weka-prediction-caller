@@ -12,7 +12,7 @@
 $extapp_weka = IniRead ( @ScriptDir & "\config.ini", "weka", "extapp_weka", "C:\Program Files\Weka-3-8\weka.jar" )
 $extapp_weka = set_full_path($extapp_weka)
 
-$test_set_arff = IniRead ( @ScriptDir & "\config.ini", "matlab", "brainwave_arff", ".\iris-test-set.arff" )
+$test_set_arff = IniRead ( @ScriptDir & "\config.ini", "matlab", "test_set_arff", ".\iris-test-set.arff" )
 If $CmdLine[0] > 0 Then
    ; 測試集可以從參數輸入
    $test_set_arff = $CmdLine[1]
